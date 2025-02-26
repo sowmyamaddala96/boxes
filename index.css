@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+p {
+    margin: 0px;
+}
+
+.body {
+    font-family: Roboto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    width: 40%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width : 0px) and (max-width: 768px) {
+    .main-container {
+        width: 100%;
+    }
+}
+
+.title-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 20%;
+}
+
+.title {
+    width: 60%;
+    font-weight: bold;
+    font-size: 28px;
+    color: #FF6B82;
+    text-align: center;
+}
+
+.box {
+    border: 2px solid #C8C8C8;
+    padding: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.selected-box {
+    border: 2px solid #FF6B82;
+    background-color: #faeded;
+}
+
+.most-popular {
+    /* position: absolute; */
+    background: #FF6B82;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.details-container {
+    display: flex;
+    font-size: 20px;
+}
+
+.unit {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.discount {
+    background-color: #FF6B82;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.price {
+    margin-left: auto;
+    font-weight: bold
+}
+
+.labels {
+    display: flex;
+    width: 28%;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.elements {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.select-element {
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.order-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.free-delivery-text {
+    color: #FF6B82;
+}
+
+.button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF6B82;
+    color: #ffffff;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+}
